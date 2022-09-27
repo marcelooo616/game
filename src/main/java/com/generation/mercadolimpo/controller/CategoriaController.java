@@ -20,7 +20,7 @@ import com.generation.mercadolimpo.repository.CategoriaRepository;
 
 @RestController
 @RequestMapping("/categoria")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin("*")
 public class CategoriaController {
 
 	@Autowired
